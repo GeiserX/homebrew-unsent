@@ -12,7 +12,7 @@ This is the official Homebrew tap for [unsent](https://github.com/GeiserX/unsent
 
 ```bash
 brew tap GeiserX/unsent
-brew trust GeiserX/unsent   # Homebrew 7 asks you to trust a third-party tap once
+brew trust --formula GeiserX/unsent/unsent   # newer Homebrew asks once per third-party formula
 brew install unsent
 ```
 
