@@ -8,24 +8,17 @@
 
 This is the official Homebrew tap for [unsent](https://github.com/GeiserX/unsent), AutoRecover for your AI agent prompts: it saves what you type into a command-line agent's input box, so a crash, a closed window or a reboot never takes an unsent message with it.
 
-## Installation
+## Quick start
 
 ```bash
 brew tap GeiserX/unsent
 brew trust --formula GeiserX/unsent/unsent   # newer Homebrew asks once per third-party formula
 brew install unsent
-```
-
-## Usage
-
-```bash
-unsent claude        # run Claude Code with drafts saved as you type
-unsent list          # drafts left behind, newest first
-unsent restore       # copy the newest one back to the clipboard
+unsent setup   # zsh or bash: from the next shell, your agents run through unsent
 ```
 
 The full documentation lives in the [unsent repository](https://github.com/GeiserX/unsent).
 
 ## License
 
-[GPL-3.0](LICENSE)
+[GPL-3.0-or-later](LICENSE)

@@ -5,7 +5,7 @@ class Unsent < Formula
   desc "AutoRecover for AI agent prompts: saves what you type into agent CLIs"
   homepage "https://github.com/GeiserX/unsent"
   version "0.7.1"
-  license "GPL-3.0-only"
+  license "GPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.arm?
