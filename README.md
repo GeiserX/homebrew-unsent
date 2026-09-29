@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/images/banner.svg" alt="homebrew-unsent banner" width="900"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/GeiserX/homebrew-unsent/main/docs/images/banner.svg" alt="homebrew-unsent banner" width="900"/></p>
 
 <h1 align="center">homebrew-unsent</h1>
 
