@@ -14,7 +14,7 @@ This is the official Homebrew tap for [unsent](https://github.com/GeiserX/unsent
 brew tap GeiserX/unsent
 brew trust --formula GeiserX/unsent/unsent   # newer Homebrew asks once per third-party formula
 brew install unsent
-unsent setup   # from the next shell, your agents run through unsent
+unsent setup   # zsh or bash: from the next shell, your agents run through unsent
 ```
 
 The full documentation lives in the [unsent repository](https://github.com/GeiserX/unsent).
