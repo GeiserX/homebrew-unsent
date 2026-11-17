@@ -4,26 +4,26 @@
 class Unsent < Formula
   desc "AutoRecover for AI agent prompts: saves what you type into agent CLIs"
   homepage "https://github.com/GeiserX/unsent"
-  version "0.8.2"
+  version "0.8.3"
   license "GPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/GeiserX/unsent/releases/download/v0.8.2/unsent_0.8.2_darwin_arm64.tar.gz"
-      sha256 "3e0ebcac940e109203026a142c84b55db0a754e8b48ccb24667dd10a545dc388"
+      url "https://github.com/GeiserX/unsent/releases/download/v0.8.3/unsent_0.8.3_darwin_arm64.tar.gz"
+      sha256 "b1c85fadc4c89ceef6d461837f4578448d4f480420cf99476e6757ad9090fbc9"
     else
-      url "https://github.com/GeiserX/unsent/releases/download/v0.8.2/unsent_0.8.2_darwin_amd64.tar.gz"
-      sha256 "1943d31b38b2ad6a7a9f94b7af272bbf1680aaa7d95552237659b0191efc987a"
+      url "https://github.com/GeiserX/unsent/releases/download/v0.8.3/unsent_0.8.3_darwin_amd64.tar.gz"
+      sha256 "783be5e193920f3d9ed7d0f1397ac62a3f0e273c4bc3dacf40d382912778e048"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/GeiserX/unsent/releases/download/v0.8.2/unsent_0.8.2_linux_arm64.tar.gz"
-      sha256 "b38671590538fc2679c89f9024b5062d8e466916b91a0f7788eea260282877b8"
+      url "https://github.com/GeiserX/unsent/releases/download/v0.8.3/unsent_0.8.3_linux_arm64.tar.gz"
+      sha256 "cab531fee4554796f708e4df1d22debacc6e04ca21c1cd29f65cf8bc6ff257e1"
     else
-      url "https://github.com/GeiserX/unsent/releases/download/v0.8.2/unsent_0.8.2_linux_amd64.tar.gz"
-      sha256 "0c81b438fb98022119426aa30a1c42db87d5aeb048443c90088917a1d830c32d"
+      url "https://github.com/GeiserX/unsent/releases/download/v0.8.3/unsent_0.8.3_linux_amd64.tar.gz"
+      sha256 "978dcf65877900b40af57becc6d5019c2aafda95f61a58c0dda62db8ecd07616"
     end
   end
 
